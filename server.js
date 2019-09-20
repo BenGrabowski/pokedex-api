@@ -1,8 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const morgan = require('morgan')
-const POKEDEX = require('./pokedex.json')
-
+const POKEDEX = require('./')
 const app = express()
 
 app.use(morgan('dev'))
